@@ -1,0 +1,38 @@
+.work-item {
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.work-content {
+    padding: .5em;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+
+.work-cover-photo {
+    object-fit: cover;
+    width: 100%;
+}
+
+.work-btn-visit-website {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    margin-top: .5em;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: .5em 0;
+    background: orangered;
+    color: white;
+}
+
+.work-btn-visit-website:hover, .work-btn-visit-website:focus {
+    cursor: pointer;
+    background: darkslateblue;
+}

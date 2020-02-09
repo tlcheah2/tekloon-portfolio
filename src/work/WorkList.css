@@ -1,0 +1,15 @@
+/* Layout */
+.work-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1.5em;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+@media (min-width: 600px) {
+    .work-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
