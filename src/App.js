@@ -1,25 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+import WorkList from './work/WorkList';
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+        <h1>My Frontend Challenge</h1>
+        <p className="description">Here are some frontend projects that I have been working on</p>
+        <WorkList />
+      </div>
   );
 }
 
